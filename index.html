@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakriti - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(12, 12, 42);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(23, 23, 35);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(155, 155, 209);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #7777af;
+            height: 0.2px;
+            margin: 278px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: 270px 80px;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 87vw;
+            height: 1px;
+            margin: 50px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 160px;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+
+        }
+
+        .leftSection .buttons{
+            padding: 23px;
+        }
+
+        .leftSection .btn {
+            background: #1e1e3d;
+            color: white;
+            border: 2px solid white;
+            border-radius: 2px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 90%;
+
+        }
+
+        .purple {
+            color: rgb(87, 131, 212)
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(87, 131, 212)
+        }
+
+        .image-top {
+            position: relative;
+            top: -29px;
+            left: -11px;
+            width: 23px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 60px;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 83px;
+            width: 150px;
+            color: gray;
+            font-size: 11px;
+        }
+
+        footer {
+            background-color: rgb(23, 23, 35);
+            height: 130px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Prakriti's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello! My name is <span class="purple">Prakriti</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="PrakritiS Resume.pdf" target="blank">
+                    <button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/kritii6" target="blank">
+                    <button class="btn">Visit Github</button></a>
+                    <a href="https://www.linkedin.com/in/prakritis0/" target="blank">
+                    <button class="btn">Visit Linkdin Profile</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="1.jpg" alt="">
+
+            </div>
+        </section>
+
+        <section class="secondSection">
+            <h3>Projects</h3>
+            <span class="text-gray">What I have done so far</span>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="2.png" alt="">
+                    <div class="vertical-title">
+                        PERSONAL PORTFOLIO
+                    </div>
+                    <div class="vertical-desc">
+                        It is a compilation of academic and professional materials that exemplifies my
+                        skills,qualifications,training and experiences.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="2.png" alt="">
+                    <div class="vertical-title">
+                        STUDENT INFORMATION SYSTEM
+                    </div>
+                    <div class="vertical-desc">
+                        It is a Software which is used to manage student information/data.Technologies used
+                        HTML,CSS,PHP,MYSQL.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="2.png" alt="">
+                    <div class="vertical-title">
+                        VIRTUAL SPEECH RECOGNITION SYSTEM
+                    </div>
+                    <div class="vertical-desc">
+                        Virtual voice assistant is a project that utilizes machine learning and natural language
+                        processing to enable users to control their devices using voice commands.Technologies used
+                        include PYTHON,PYAUDIO,PYTHON LIBRARIES.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="2.png" alt="">
+                    <div class="vertical-title">
+                        CHATBOT
+                    </div>
+                    <div class="vertical-desc">
+                        A computer program that can understand human language and converse with a user via a website.It
+                        can handle tasks - from answering simple questions.Technologies used
+                        HTML,CSS,JAVASCRIPT,PYTHON,FLASK.
+                    </div>
+                    <div>
+
+
+
+                    </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Prakriti's Portfolio Website</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; prakritisportfolio.com | All rights reserved
+            </div>
+
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
